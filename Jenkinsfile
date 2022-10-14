@@ -3,9 +3,9 @@ pipeline {
        stages {
         stage("Application Sync") {
             steps {
-                 sh """
-                 aws --version
-         
+                 sh '''
+                 chmod +x script.sh
+          ./script.sh
                 }
             }
         }
