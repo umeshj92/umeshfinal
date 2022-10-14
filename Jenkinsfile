@@ -5,8 +5,7 @@ pipeline {
             steps {
                  sh """
                  aws --version
-          chmod +x script.sh
-          ./script.sh    
+         
                 }
             }
         }
